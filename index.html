@@ -28,6 +28,9 @@
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
 
+    <!-- Table in Tabs CSS -->
+    <link href="css/tabs.css" rel="stylesheet">
+
     <style>
 
           .btn-warning2:hover {
@@ -159,6 +162,11 @@
           border-color: #f1f1f1;
           }
 
+          .col-centered{
+          float: none;
+          margin: 0 auto;
+          }
+
       </style>
 
 </head>
@@ -195,7 +203,7 @@
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="#ITN-DCH">ITN-DCH</a>
+                        <a class="page-scroll" href="#e-agenda">E-Agenda</a>
                     </li>
 
                     <li>
@@ -599,7 +607,7 @@ Final Conference on Digital Heritage</h1>
               </tr>
               <tr>
                 <th scope="row">Registration deadline</th>
-                <td>01<sup>st</sup> May 2017</td>
+                <td><del>01</del> <strong>8<sup>th</sup></strong> May 2017</td>
               </tr>
               <tr>
                 <th scope="row">Conference</th>
@@ -847,7 +855,7 @@ Final Conference on Digital Heritage</h1>
     </section>
 
 
- <section id="Programme">
+ <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -945,7 +953,7 @@ Final Conference on Digital Heritage</h1>
 <p>The Workshop aims to introduce the audience in the current state of the 3D documentation in CH. Through practical session; the participants will be introduced into the most common techniques in 3D documentation of CH (photogrammetry, laser scanner, structured light scanner) and software. Additionally, the workshop has the goal to enhance the skills of the audience and create a young scientist space for debating and exchange of ideas, knowledge and trace future research and technological directions.<br></br>
 </p>
 
-      <img ALIGN="center" width="90%" src="img/timetable.png"  style="margin-right: auto;margin-left: auto; display: block;margin-bottom: 3em;margin-top: 2em;">
+      <img id="e-agenda"ALIGN="center" width="90%" src="img/timetable.png"  style="margin-right: auto;margin-left: auto; display: block;margin-bottom: 3em;margin-top: 2em;">
 
 
 </div>
@@ -978,13 +986,141 @@ Final Conference on Digital Heritage</h1>
 
 
 <div class="cart">
-                    <a href="file/timetable.pdf" class="btn btn-warning2 btn-lg" id="regbutton" role="button" target="_blank">Download pdf</a>
+                    <a href="file/timetable.pdf" class="btn btn-warning2 btn-lg" id="regbutton" role="button" target="_blank" style="margin-bottom: 1em;margin-top: 1em;">Download pdf</a>
+                    
+
 
 
               </div>
+<div class="cart" id="Programme">
+            <a href="file/booklet.pdf" class="btn btn-warning2 btn-lg" id="regbutton" role="button" target="_blank" style="margin-bottom: 2em;">Download Booklet</a>
+</div>              
               </div>
+<div class="col-lg-9 text-center col-centered">
+
+<div class="tab" style="justify-content: center;display: flex;">
+  <button class="tablinks" onclick="openSession(event, 'Session I')">Session I</button>
+  <button class="tablinks" onclick="openSession(event, 'Session II')">Session II</button>
+  <button class="tablinks" onclick="openSession(event, 'Session III')">Session III</button>
+  <button class="tablinks" onclick="openSession(event, 'Session IV')">Session IV</button>
+  <button class="tablinks" onclick="openSession(event, 'Session V')">Session V</button>
+</div>
+
+<div id="Session I" class="tabcontent" style="overflow-x:auto;">
+  <h4>Session I:<br>"Digital Data Acquisition in CH, Processing and Archiving of Data"<br></h4>
+  
+<table class="tableizer-table" width="800" align="center" >
+<thead><tr class="tableizer-firstrow"><th>ID</th><th>PROJECT PAPERS</th><th colspan = "2">FIRST AUTHOR</th></tr></thead>
+ <tbody>
+    <tr><td>16</td><td>3D data acquisition and modelling of complex heritage buildings</td><td>Federica Maietti</td><tr>
+    <tr><td>26</td><td>Curious travellers – Image matching and 3d visualisation of heritage at risk</td><td>Andrew Wilson</td><tr>
+    <tr><td>58</td><td>Five dimensional (5D) modeling of the Holy Aedicule of the Church of the Holy Sepulchre</td><td>Antonia Moropoulou</td><tr>
+    <tr><td>60</td><td>Comparison and methodological hybridization between photogrammetry and scanner survey</td><td>Guido Guarato</td><tr>
+    <tr><td>63</td><td>Holistic e-documentation: An innovative approach for cultural heritage</td><td>Marinos Ioannides</td><tr>
+    <tr><td>65</td><td>Lucangeli's wooden colosseum: integrated survey and digital models</td><td>Graziano Mario Valenti</td><tr>
+    <tr><td>66</td><td>Efficient registration of multi-platform camera networks</td><td>Matevž Domajnko</td><tr>
+    <tr><td>68</td><td>Multidisciplinary approach for Cultural Heritage Artworks</td><td>Massimiliano Guarneri</td><tr>
+    <tr><td>70</td><td>College of Cultural Heritage project in Taiwan</td><td>Alex Yen</td><tr>
+    <tr><td>72</td><td>Assessment of earthquake resistance of monument based on its time evolution 3d presentation - Case of Asinou church in Cyprus</td><td>Roko Zarnic</td><tr>
+    <tr><td>18</td><td>Linked Open Data as universal markers for Mobile Augmented Reality Applications in Cultural heritage</td><td>John Aliprantis</td><tr>
+    <tr><td>12</td><td>Knowledge Management Using Ontology on the Domain of Artworks Conservation</td><td>Efthymia Moraitou</td><tr>
+</tbody>
+</table>
+
+</div>
+
+<div id="Session II" class="tabcontent" style="overflow-x:auto;">
+  <h4>Session II:<br>"3D Modelling and Reconstruction in CH"<br></h4>
+  
+<table class="tableizer-table" width="800" align="center">
+<thead><tr class="tableizer-firstrow"><th>ID</th><th>PROJECT PAPERS</th><th colspan = "2">FIRST AUTHOR</th></tr></thead>
+ <tbody>
+    <tr><td>8</td><td>Neolithic houses at la Draga prehistoric site (Girona, Spain): 3D reconstruction and BIM analysis</td><td>Juan Anton Barceló</td><tr>
+    <tr><td>11</td><td>3D Visualisation of the Gorenjska Folk Costume</td><td>Tanja Nuša Ko?evar</td><tr>
+    <tr><td>27</td><td>Digital heritage and digital humanities methodologies: reliability and accuracy of digital models in re-creating lost contexts</td><td>Rosa Tamborrino</td><tr>
+    <tr><td>28</td><td>3D digitization of selected collection items using photometric stereo</td><td>Jaroslav Valach</td><tr>
+    <tr><td>31</td><td>The LOOM: interactive weaving through a tangible installation with digital feedback</td><td>Anastasios Dimitropoulos</td><tr>
+    <tr><td>35</td><td>Design of 3D and 4D apps for Cultural Heritage preservation</td><td>Dieter Fritsch</td><tr>
+    <tr><td>41</td><td>The conservation of Cultural Heritage in conditions of risk through the use of 3D printing on architectural scale</td><td>Sara Codarin</td><tr>
+    <tr><td>42</td><td>BIM for cultural heritage: the management of generative process for complex historical buildings</td><td>Stephen Fai</td><tr>
+    <tr><td>52</td><td> Intangible Cultural Heritage: the analysis of the sound made by the Dacian Draco</td><td>Gheorghe Daniel Voinea</td><tr>
+    <tr><td>62</td><td>3D Modeling of exhibits of the History Museum of Perm University: Preservation, provision of access to and usage of Cultural Heritage items</td><td>Nadezhda Povroznik</td><tr>
+</tbody>
+</table>
+
+</div>
+
+<div id="Session III" class="tabcontent" style="overflow-x:auto;">
+  <h4>Session III:<br>"Ontologies and Metadata in Digital CH"<br></h4>
+  
+<table class="tableizer-table" width="800" align="center">
+<thead><tr class="tableizer-firstrow"><th>ID</th><th>PROJECT PAPERS</th><th colspan = "2">FIRST AUTHOR</th></tr></thead>
+ <tbody>
+    <tr><td>15</td><td>Digital Cultural Heritage: semantic enrichment and modelling in BIM environment</td><td>Federica Maietti</td><tr>
+    <tr><td>17</td><td>Bridging the Gap between Academia and Museums</td><td>Mark Depauw</td><tr>
+    <tr><td>23</td><td>Metadata architecture for Cultural Heritage multimodal acquisitions</td><td>Irina-Mihaela Ciortan</td><tr>
+    <tr><td>32</td><td>One database to connect them all – the world’s immovable cultural heritage on wikidata</td><td>John Andersson</td><tr>
+    <tr><td>34</td><td>Using a 3D-modell to store written and pictorial historical sources from collections and archives</td><td>Richard Kurdiovsky</td><tr>
+    <tr><td>40</td><td>Online faculty system and church heritage record: digital tools protecting the church of England’s heritage</td><td>Julie Patenaude</td><tr>
+    <tr><td>50</td><td>Towards a Digital Infrastructure for Illustrated Handwritten Archives</td><td>Andreas Weber</td><tr>
+    <tr><td>54</td><td>Semantic Representation and Enrichment of Cultural Heritage Information for  Fostering Reinterpretation and Reflection on the European History</td><td>Andreas Vlachidis</td><tr>
+    <tr><td>55</td><td>Digital preservation: how to be trustworthy?</td><td>Lina Bountouri</td><tr>
+    <tr><td>67</td><td>Ontology-based data collection for Heritage Buildings</td><td>Andrej Tibaut</td><tr>
+</tbody>
+</table>
+
+</div>
+
+<div id="Session IV" class="tabcontent" style="overflow-x:auto;">
+  <h4>Session IV:<br>"Reuse & Assessment of Digital Cultural Heritage Data"<br></h4>
+  
+<table class="tableizer-table" width="800" align="center">
+<thead><tr class="tableizer-firstrow"><th>ID</th><th>PROJECT PAPERS</th><th colspan = "2">FIRST AUTHOR</th></tr></thead>
+ <tbody>
+    <tr><td>3</td><td>Using innovative technologies in preservation and presentation of endangered archives</td><td>Aleksandar Jerkov</td><tr>
+    <tr><td>4</td><td>Analysis, Documentation and Proposal for Restoration and Reuse of “Chrysalis” Silk Factory in Goumenissa, Kilkis, Northern Greece</td><td>Stavros Apotsos</td><tr>
+    <tr><td>33</td><td>Small Memory Boxes - Returning Documents from the Archive of the Folklore Circle Back to Their Owners</td><td>Liviu Pop</td><tr>
+    <tr><td>38</td><td>Minimal functionality for digital editions</td><td>Federico Caria</td><tr>
+    <tr><td>39</td><td>Evaluation of an e-learning platform for unesco whl monuments in cyprus</td><td>Vasiliki Nikolakopoulou</td><tr>
+    <tr><td>43</td><td>Innovative business plans for H-bIM application related to alternative financing opportunities for cultural</td><td>Klaus Luig</td><tr>
+    <tr><td>46</td><td>Preserving the story of heritage in ruins using online digital repositories the case of Urbex</td><td>Negin Eisazadeh</td><tr>
+    <tr><td>61</td><td>Anchoring unsorted e-sources about heritage artefacts in space and time</td><td>Gamze Saygi</td><tr>
+</tbody>
+</table>
+
+</div>
+
+<div id="Session V" class="tabcontent" style="overflow-x:auto;">
+  <h4>Session V:<br>"Visualisation, VR, AR and Serious Games"<br></h4>
+  
+<table class="tableizer-table" width="800" align="center">
+<thead><tr class="tableizer-firstrow"><th>ID</th><th>PROJECT PAPERS</th><th colspan = "2">FIRST AUTHOR</th></tr></thead>
+ <tbody>
+    <tr><td>7</td><td>Collaborative Tangible Gamification of Built Heritage for Young Museum Visitors</td><td>Eslam Nofal</td><tr>
+    <tr><td>9</td><td>Exploring Cultural Heritage Using Virtual Reality</td><td>Laurent Debailleux</td><tr>
+    <tr><td>13</td><td>3D Pose estimation oriented to the initialization of an augmented reality system applied to cultural heritage</td><td>Ricardo Moisés Rodriguez Oceda</td><tr>
+    <tr><td>22</td><td>The VR bar: using Virtual Reality to disseminate the rehabilitation project of the Canadian parliament buildings</td><td>Katie Graham</td><tr>
+    <tr><td>37</td><td>From the Rock to the Cinema - Pitoti 360 - Turning Rock-art into VR</td><td>Frederick Baker</td><tr>
+    <tr><td>45</td><td>A new way of integrating with Cultural Heritage through the application of artistic style transfer</td><td>Marinos Ioannides</td><tr>
+    <tr><td>48</td><td>Virtual annotation prototype: annotating contemporary dance in Virtual Reality</td><td>Claudia Ribeiro</td><tr>
+    <tr><td>49</td><td>Technologies of Non Linear Storytelling for the Management of Cultural Heritage in the Digital City: The Case of Thessaloniki</td><td>Ofilia Psomadaki</td><tr>
+    <tr><td>56</td><td>Rapid reconstruction and simulation of real characters in Mixed Reality environments</td><td>Margarita Papaefthymiou</td><tr>
+    <tr><td>57</td><td>Four-dimensional (4d) modeling of the holy aedicule of the of the holy sepulchre historic construction phases</td><td>Emmanouil Alexakis</td><tr>
+    <tr><td>59</td><td>Four-dimensional multi-user guided interactive experiences for heritage storytelling and education</td><td>Yi Yuan</td><tr>
+    <tr><td>71</td><td>The EU Virtual Multimodal Museum Project</td><td>Marinos Ioannides</td><tr>
+</tbody>
+</table>
+
+</div>
+
+
+
             </div>
           </div>
+
+
+
+
 
     </section>
 
@@ -1464,6 +1600,11 @@ Final Conference on Digital Heritage</h1>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+
+        <!-- JavaScript for tabs -->
+    <script src="js/tabs.js"></script>
+    
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
